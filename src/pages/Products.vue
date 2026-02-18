@@ -142,11 +142,8 @@
                     </p>
                   </div>
 
-                  <div class="flex items-center justify-between pt-4 border-t mt-auto">
-                    <p class="text-xl font-bold text-blue-600">
-                      ₹{{ product.price }}
-                    </p>
-
+                  <div class="flex items-center justify-end pt-4 border-t">
+                  
                     <button
                       @click="openModal(product)"
                       class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-3 py-2 rounded-lg transition-colors duration-200"

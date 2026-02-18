@@ -56,21 +56,10 @@
               <p class="text-gray-500 font-medium">Weight</p>
               <p class="font-semibold">{{ product.weight }}</p>
             </div>
-            <div>
-              <p class="text-gray-500 font-medium">Price</p>
-              <p class="font-semibold text-blue-600">₹{{ product.price }}</p>
-            </div>
           </div>
 
           <!-- PRICE + CTA -->
           <div class="space-y-4 pt-4 border-t mt-auto">
-            <div class="flex items-baseline justify-between">
-              <span class="text-gray-600">Unit Price:</span>
-              <p class="text-3xl font-bold text-blue-600">
-                ₹{{ product.price }}
-              </p>
-            </div>
-
             <button
               @click="handleEnquire"
               class="w-full px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold hover:opacity-90 transition-opacity"

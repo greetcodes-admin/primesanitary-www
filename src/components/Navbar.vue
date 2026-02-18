@@ -10,8 +10,7 @@
       <!-- LEFT: CONTACT (DESKTOP ONLY) -->
       <div
         :class="[
-          'hidden md:flex gap-6 text-white font-semibold transition-all duration-300',
-          isScrolled ? 'opacity-0 translate-y-1' : 'opacity-100',
+          'hidden md:flex gap-6 text-white font-semibold transition-all duration-300'
         ]"
       >
         <span>📞 {{ contactInfo.phone }}</span>
@@ -39,9 +38,8 @@
           </router-link>
         </div>
       </div>
-
       <!-- RIGHT: MENU (DESKTOP) -->
-      <nav :class="['hidden md:flex gap-8 text-white font-semibold transition-all duration-300',isScrolled ? 'opacity-0 translate-y-1' : 'opacity-100',]">
+      <nav :class="['hidden md:flex gap-8 text-white font-semibold transition-all duration-300']">
         <router-link to="/" class="nav-link hover:text-primeGreen">HOME</router-link>
         <router-link to="/products" class="nav-link hover:text-primeGreen">PRODUCTS</router-link>
         <router-link to="/about" class="nav-link hover:text-primeGreen">ABOUT</router-link>
